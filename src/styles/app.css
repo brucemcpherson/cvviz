@@ -1,0 +1,120 @@
+body {
+  overflow: hidden;
+  font: 8px sans-serif;	
+}
+.tooltip {	
+  position: absolute;			
+  text-align: left;			
+  width: 100px;					
+  padding: 2px;					
+  background: #FF5722;	
+  border: 0px;		
+  border-radius: 8px;			
+  pointer-events: none;	
+  color: #FFFFFF;		
+}
+.bartip {
+  font: 8px sans-serif;
+  color:  DarkSlateGrey;
+}
+.clock {	
+  position: absolute;			
+}
+.background {
+  stroke-width: 0;
+  fill: Lavender;
+  fill-opacity: 0.3;
+}
+
+.axis .domain, .axis .tick line {
+  stroke-width: 1px;
+  stroke: DarkSlateGrey;
+}
+
+.axis .tick:first-of-type {
+  display: none; 
+}
+
+.axis .tick text {
+  font-size: 10px;
+}
+.minor-ticks text, .minor-ticks path {
+  display: none;  
+}
+
+.pointers rect {
+  fill-opacity: 0.7;
+}
+
+.pointers .hour, .pointers .min {
+  fill: green;
+}
+
+.pointers .sec {
+  fill: red;
+}
+
+.pointers .center {
+  fill: darkgrey;
+}
+
+.digitalclock {
+  fill: red;
+  stroke: black;
+  fill-opacity: 0.3;
+  stroke-opacity: 0.6;
+
+}
+
+.eventlog {	
+  position: absolute;			
+  text-align: left;							
+  padding: 2px;					
+  background: Lavender;
+  border: 0px;		
+  border-radius: 8px;			
+  color: #212121;
+  overflow: scroll;	
+}
+
+.table {	
+  position: absolute;														
+  background: Lavender;
+  opacity: 1;	
+  border: 0px;		
+  border-radius: 8px;			
+  color: #212121;
+}
+
+.table-center {
+  padding-right: 6px;
+  width: 100%;
+}
+
+.widget {	
+  position: absolute;									
+  margin: 0px;					
+  background: Lavender;
+  opacity: 1;		
+  border: 0px;				
+  color: #212121;
+}
+
+.axis.bar text {
+  font: 8px sans-serif;
+  color:  DarkSlateGrey;
+  font-weight: lighter;
+}
+.axis.bar line,
+.axis.bar path {
+  fill: none;
+  stroke: DarkSlateGrey;
+  shape-rendering: crispEdges;
+  stroke-opacity: 0.5;
+  stroke-width: 1px;
+}
+.path-line.bar {
+  fill: none;
+  stroke:  DarkSlateGrey;
+  stroke-width: 1px;
+}
