@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "fid-sql": {
+      "hosting": {
+        "cv-viz": [
+          "cv-viz"
+        ]
+      }
+    }
+  }
+}

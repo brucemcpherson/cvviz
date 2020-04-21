@@ -26,6 +26,11 @@ module.exports = {
             use:['style-loader','css-loader']
         }
    ]
+  },
+  optimization: {
+    splitChunks: {
+      chunks: 'all'
+    }
   }
 }
 

@@ -10,7 +10,8 @@ import {
 import { bbox ,randomInsideCircle} from './u'
 import { store } from './store'
 import SimNode from './simnode'
-import faker from 'faker'
+import faker from 'faker/locale/en_GB'
+
 const { setStore, getStore  } = store
 
 export const setRandomPosition = ({t, radius}) => {
