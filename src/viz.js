@@ -1278,6 +1278,20 @@ export const drawLogMoves = () => {
     userStates.showLogMoves = d3Select(this).property("checked")
   })
 }
+export const drawContact = () => {
+  drawForeign({ 
+    id: 'story',
+    top: store.dimensions.widget.itemHeight *6,
+    left: 0,
+    html: `<a target="_blank" href="https://ramblings.mcpher.com/d3-js/cv-viz-virus-infection-simulation-with-d3-js/">story</a>`
+  })
+  drawForeign({ 
+    id:'github',
+    top: store.dimensions.widget.itemHeight *6,
+    left: 30,
+    html: `<span><a target="_blank" href="https://github.com/brucemcpherson/cvviz">github</a>`
+  })
+}
 // used for embedding a foreign object inside an svg
 export const drawForeign = ({id, onChange, onClick, top, html , left = 0}) => {
 
@@ -1370,6 +1384,7 @@ export const vizInit = () => {
   drawReset()
   drawLogEvents()
   drawLogMoves()
+  drawContact()
 
 
   // Generate random population data
