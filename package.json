@@ -7,7 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "d3": "^5.15.0",
-    "d3-color": "^1.4.0",
+    "d3-color": "^3.1.0",
     "d3-force-attract": "^0.1.1",
     "d3-force-cluster": "^0.1.2",
     "d3-radial-axis": "^1.6.4",
